@@ -24,22 +24,38 @@
 
 	// Environment variables
 	"vars": {
-		"KAD_PRODUCTS_ENVIRONMENT": "development",
-		"LOG_LEVEL": "debug",
-		"LOG_LEVEL_TASK_OVERRIDE": ""
+		"KAD_PRODUCTS_ENVIRONMENT": "development"
 	},
 	"env": {
 		"integration": {
+			"routes": [
+				{
+					"pattern": "int.kad-products.com",
+					"custom_domain": true
+				}
+			],
 			"vars": {
 				"KAD_PRODUCTS_ENVIRONMENT": "integration"
 			}
 		},
 		"staging": {
+			"routes": [
+				{
+					"pattern": "stg.kad-products.com",
+					"custom_domain": true
+				}
+			],
 			"vars": {
 				"KAD_PRODUCTS_ENVIRONMENT": "staging"
 			}
 		},
 		"production": {
+			"routes": [
+				{
+					"pattern": "kad-products.com",
+					"custom_domain": true
+				}
+			],
 			"vars": {
 				"KAD_PRODUCTS_ENVIRONMENT": "production"
 			}
