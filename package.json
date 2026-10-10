@@ -1,8 +1,8 @@
 {
-	"name": "@kad-products/tmplt-rwsdk",
-	"version": "1.2.0",
+	"name": "@kad-products/kad-products-dot-com",
+	"version": "0.0.0",
 	"private": true,
-	"description": "A github template repo for RedwoodSDK projects",
+	"description": "Public facing site for KAD Products",
 	"keywords": [],
 	"license": "MIT",
 	"author": "",
@@ -41,7 +41,7 @@
 		"rwsdk": "1.3.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^2.5.5",
+		"@biomejs/biome": "^2.5.15",
 		"@cloudflare/vite-plugin": "1.25.1",
 		"@cloudflare/workers-types": "5.20260922.1",
 		"@commitlint/cli": "^20.4.1",

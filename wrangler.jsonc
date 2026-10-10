@@ -3,7 +3,7 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 
 	// Name of your worker
-	"name": "tmplt-rwsdk",
+	"name": "kad-products-dot-com",
 
 	// Entry point for your worker
 	"main": "src/worker.tsx",
