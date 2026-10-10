@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/kad-products/kad-products-dot-com/compare/v1.0.0...v1.1.0) (2026-10-10)
+
+### Features
+
+* enable custom domains in wrangler ([187bd88](https://github.com/kad-products/kad-products-dot-com/commit/187bd88013434682eda07d0835fa42cffac23701))
+
 ## 1.0.0 (2026-10-10)
 
 ### Features
