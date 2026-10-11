@@ -18,7 +18,11 @@ export function SubpageLayout({ children, pageTitle }: { children: React.ReactNo
 			<main>
 				<aside>
 					<nav className="subpage-side-nav">
-						<a href="/">Foo</a>
+						<div className="subpage-side-nav-section">
+							<a href="/about">About</a>
+							<a href="/policies">Policies</a>
+							<a href="/contact">Contact</a>
+						</div>
 					</nav>
 				</aside>
 				<article className="subpage-content">{children}</article>

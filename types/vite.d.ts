@@ -4,9 +4,8 @@ declare module '*?url' {
 }
 
 declare module '*.mdx' {
-	import type { MDXProps } from 'mdx/types';
 	import type { ComponentType } from 'react';
 	export const frontmatter: Record<string, unknown>;
-	const MDXComponent: ComponentType<MDXProps>;
+	const MDXComponent: ComponentType;
 	export default MDXComponent;
 }
