@@ -1,0 +1,56 @@
+.product-card-grid {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.product-card-grid,
+.tool-card-grid {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-flow: column wrap;
+	@media only screen and (min-width: 700px) {
+		flex-direction: row;
+		width: 100%;
+	}
+}
+
+.product-card,
+.tool-card {
+	flex: 1 1;
+	margin: 1rem;
+	header a {
+		display: block;
+		font-weight: bold;
+		color: green;
+		text-decoration: none;
+		padding: 1rem;
+		transition: 0.3s all linear;
+		background: #eee;
+		border-radius: 1rem 1rem 0 0;
+		border: 1px solid #ddd;
+		&:hover {
+			color: blue;
+		}
+	}
+	article {
+		border: 1px solid #ddd;
+		border-radius: 0 0 1rem 1rem;
+		display: block;
+		padding: 1rem;
+	}
+}
+
+.product-card {
+	@media only screen and (min-width: 700px) {
+		min-width: 250px;
+		max-width: 550px;
+	}
+}
+
+.tool-card {
+	@media only screen and (min-width: 700px) {
+		min-width: 200px;
+		max-width: 3000px;
+	}
+}

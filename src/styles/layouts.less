@@ -1,0 +1,57 @@
+.site-header,
+main,
+.site-footer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	.company-title-box {
+		flex: 0 0 400px;
+		a {
+			color: black;
+			text-decoration: none;
+			margin: 0 1rem;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.homepage-top-nav,
+	.page-title {
+		flex: 1 0 300px;
+		text-align: right;
+	}
+	.homepage-top-nav {
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 5rem;
+		a {
+			padding: 0.5rem 1rem;
+			line-height: 2rem;
+			margin: 1rem;
+			color: purple;
+			position: relative;
+			&:not(:last-child)::after {
+				content: "";
+				position: absolute;
+				top: 1rem;
+				bottom: 1rem;
+				right: calc(-1rem - 2px);
+				width: 4px;
+				background: purple;
+			}
+		}
+	}
+}
+.site-footer {
+	display: flex;
+	text-align: center;
+	padding: 1rem;
+	border-top: 1px solid #ddd;
+	justify-content: space-between;
+	a {
+		padding: 1rem;
+	}
+}
