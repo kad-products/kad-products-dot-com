@@ -1,3 +1,16 @@
+## [1.2.0](https://github.com/kad-products/kad-products-dot-com/compare/v1.1.0...v1.2.0) (2026-10-11)
+
+### Features
+
+* add subpage setup and slug parsing ([660378c](https://github.com/kad-products/kad-products-dot-com/commit/660378c0a7ba66d63af21ea2be19af17c40bab28))
+* lots better styling and some homepage content ([7f9a436](https://github.com/kad-products/kad-products-dot-com/commit/7f9a436c8a32eff0a13d47715538424f870feedd))
+
+### Bug Fixes
+
+* build paths and alias configs ([5d94f38](https://github.com/kad-products/kad-products-dot-com/commit/5d94f388f3d11288e4bfcac70eda2eb0709f08c7))
+* remove unused not found page ([ee38029](https://github.com/kad-products/kad-products-dot-com/commit/ee3802985b429dc8dac341a6310ec4db32ae8924))
+* rows align bottom of cards ([12f56c4](https://github.com/kad-products/kad-products-dot-com/commit/12f56c4a2ae13420d82f582c816f91a49d2c19dd))
+
 ## [1.1.0](https://github.com/kad-products/kad-products-dot-com/compare/v1.0.0...v1.1.0) (2026-10-10)
 
 ### Features
