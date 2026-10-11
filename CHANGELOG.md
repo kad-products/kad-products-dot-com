@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/kad-products/kad-products-dot-com/compare/v1.2.0...v1.3.0) (2026-10-11)
+
+### Features
+
+* add mom test and better styling ([5b61a01](https://github.com/kad-products/kad-products-dot-com/commit/5b61a01ed61825b76b84d7e23feaae903eeaa08d))
+
 ## [1.2.0](https://github.com/kad-products/kad-products-dot-com/compare/v1.1.0...v1.2.0) (2026-10-11)
 
 ### Features
