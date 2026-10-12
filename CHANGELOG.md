@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/kad-products/kad-products-dot-com/compare/v1.3.0...v1.4.0) (2026-10-12)
+
+### Features
+
+* more docs and page meta nav ([daca1ca](https://github.com/kad-products/kad-products-dot-com/commit/daca1ca6483ca8809a8b4a610748bda68c95342a))
+
 ## [1.3.0](https://github.com/kad-products/kad-products-dot-com/compare/v1.2.0...v1.3.0) (2026-10-11)
 
 ### Features
