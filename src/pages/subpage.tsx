@@ -1,6 +1,7 @@
 import type { ComponentType } from 'react';
 import type { RequestInfo } from 'rwsdk/worker';
 import { SubpageLayout } from '@/layouts';
+import type { PageMeta } from '@/types/page-meta';
 
 const contentModules = import.meta.glob('/content/**/*.mdx');
 
@@ -8,6 +9,7 @@ type MDXModule = { default: ComponentType; frontmatter?: Record<string, unknown>
 
 type ContentFrontmatter = {
 	title?: string;
+	meta?: PageMeta;
 };
 
 export default async function Pages__subpage({ request }: RequestInfo): Promise<React.JSX.Element> {
@@ -26,7 +28,7 @@ export default async function Pages__subpage({ request }: RequestInfo): Promise<
 	const frontmatter = _fm as unknown as ContentFrontmatter;
 
 	return (
-		<SubpageLayout pageTitle={frontmatter.title ?? slug}>
+		<SubpageLayout pageTitle={frontmatter.title ?? slug} pageMeta={frontmatter.meta}>
 			<PageContent />
 		</SubpageLayout>
 	);
