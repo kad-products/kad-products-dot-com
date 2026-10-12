@@ -35,6 +35,8 @@
 	},
 	"dependencies": {
 		"@kad-products/shed": "^1.0.0",
+		"@kad-products/sofrito": "^1.6.0",
+		"@radix-ui/react-icons": "^1.3.2",
 		"react": "19.3.0",
 		"react-dom": "19.3.0",
 		"rwsdk": "1.3.0"

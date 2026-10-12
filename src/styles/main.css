@@ -1,6 +1,7 @@
 @import "./cards.less";
 @import "./layouts.less";
 @import "./side-nav.less";
+@import "./subpage-floating-nav.less";
 
 body {
 	padding: 0;

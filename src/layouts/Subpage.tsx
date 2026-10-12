@@ -1,8 +1,18 @@
 import { StrictMode } from 'react';
 import { LayoutFooter } from '@/components/layout';
+import { SubpageMetaNav } from '@/components/layout/subpage-meta-nav';
 import { SubpageSideNavSection } from '@/components/subpage-side-nav-section';
+import type { PageMeta } from '@/types/page-meta';
 
-export function SubpageLayout({ children, pageTitle }: { children: React.ReactNode; pageTitle: string }): React.ReactNode {
+export function SubpageLayout({
+	children,
+	pageMeta,
+	pageTitle,
+}: {
+	children: React.ReactNode;
+	pageMeta?: PageMeta;
+	pageTitle: string;
+}): React.ReactNode {
 	return (
 		<StrictMode>
 			<header className="site-header">
@@ -88,6 +98,7 @@ export function SubpageLayout({ children, pageTitle }: { children: React.ReactNo
 						/>
 					</nav>
 				</aside>
+				<SubpageMetaNav pageMeta={pageMeta} />
 				<article className="subpage-content">{children}</article>
 			</main>
 			<LayoutFooter />
